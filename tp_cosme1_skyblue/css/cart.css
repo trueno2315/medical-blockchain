@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*カートテーブル
+---------------------------------------------------------------------------*/
+table.cart {
+	background: #FFF;
+	color: #333;
+	margin: 0px auto;
+}
+table.cart, table.cart td, table.cart th {
+	border: 1px solid #000;
+}
+table.cart td, table.cart th {
+	padding: 5px;
+	text-align: center;
+}
+table.cart th {
+	background: #F0F0F0;
+	vertical-align: middle;
+}
+table.cart img {
+	padding-right: 3px;
+}
+table.cart th.tamidashi {
+	width: auto;
+	text-align: left;
+	color: #FFF;
+	background-color: #666;
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+#cart #contents {
+	background: #FFF;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.nav {
+	padding-bottom: 20px;
+}
+.nav strong {
+	color: #e60012;
+}
